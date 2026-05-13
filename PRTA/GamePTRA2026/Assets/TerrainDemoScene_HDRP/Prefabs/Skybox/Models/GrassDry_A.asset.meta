@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce75786bc0500bc46836e22427d2e27d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145808
+  packageName: Terrain Sample Asset Pack
+  packageVersion: 2.0.1
+  assetPath: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/GrassDry_A.asset
+  uploadId: 511657
