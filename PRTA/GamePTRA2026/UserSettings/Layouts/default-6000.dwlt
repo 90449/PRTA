@@ -194,7 +194,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 62
+  controlID: 132
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -1128,9 +1128,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.007845636, y: 0.9899115, z: -0.12780543, w: -0.060660064}
   m_Size:
-    m_Target: 2.9027863
+    m_Target: 3.3921645
     speed: 2
-    m_Value: 2.9027863
+    m_Value: 3.3921645
   m_Ortho:
     m_Target: 1
     speed: 2
