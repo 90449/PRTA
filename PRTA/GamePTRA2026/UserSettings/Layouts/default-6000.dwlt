@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 111
+  controlID: 41
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -426,7 +426,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0cfbffff
+      m_ExpandedIDs: 18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1050,13 +1050,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.10385752, y: 0.8106558, z: -0.15126139, w: 0.5563162}
+    m_Target: {x: 0.10156505, y: 0.8424045, z: -0.17021297, w: 0.50139403}
     speed: 2
-    m_Value: {x: 0.104446135, y: 0.8111327, z: -0.15261012, w: 0.5548557}
+    m_Value: {x: 0.10129294, y: 0.84301686, z: -0.17033708, w: 0.50004756}
   m_Size:
-    m_Target: 10.56635
+    m_Target: 7.4100304
     speed: 2
-    m_Value: 11.06424
+    m_Value: 7.759194
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -3021,7 +3021,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009e020000d201000000000000aa1501004214010032c200004eba0000d2b1000040b900000cbf000030b8000032b8000034b8000036b8000038b800003ab800003cb800003eb8000040b8000042b8000044b8000046b8000048b800004ab800004cb8000072b20000dcb90000b0b90000c4b90000acb9000052ba0000f0b4000084bb000090b2000056b30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
