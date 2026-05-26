@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 265343908}
-  speed: 12
+  speed: 6
   gravity: -19.62
   jumpheight: 3
   groundCheck: {fileID: 546182887}
@@ -920,8 +920,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a3cba3f073bb98e44b059c7d05967949, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1394503956}
   m_SourcePrefab: {fileID: 100100000, guid: a3cba3f073bb98e44b059c7d05967949, type: 3}
+--- !u!1 &1394503954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a3cba3f073bb98e44b059c7d05967949, type: 3}
+  m_PrefabInstance: {fileID: 1205363153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!154 &1394503956
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394503954}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
