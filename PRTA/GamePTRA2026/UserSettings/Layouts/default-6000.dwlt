@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 66
+  controlID: 132
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -3664,7 +3664,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0efbffff
+      m_ExpandedIDs: a0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4240,9 +4240,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1602.9462, y: -910.26843, z: 505.99918}
+    m_Target: {x: -44.749207, y: -104.88803, z: 82.98419}
     speed: 2
-    m_Value: {x: 1602.9462, y: -910.26843, z: 505.99918}
+    m_Value: {x: -44.749207, y: -104.88803, z: 82.98419}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4258,7 +4258,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 0
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -4288,13 +4288,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22860833, y: -0.56707627, z: 0.16762224, w: -0.77337986}
+    m_Target: {x: -0.17545086, y: 0.82256925, z: -0.3497171, w: -0.41267538}
     speed: 2
-    m_Value: {x: -0.23086275, y: -0.5648016, z: 0.16842496, w: -0.77416706}
+    m_Value: {x: 0.22860834, y: 0.5670763, z: -0.16762224, w: 0.7733799}
   m_Size:
-    m_Target: 864.0509
+    m_Target: 148.36075
     speed: 2
-    m_Value: 864.0509
+    m_Value: 148.36075
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -6196,14 +6196,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 39
-  m_LastProjectPath: C:\Users\AFNgr\OneDrive - ROC Ter AA\PRTA\PRTA\GamePTRA2026
+  m_LastProjectPath: C:\Users\Jarno\Documents\GitHub\PRTA\PRTA\GamePTRA2026
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d8dc0000
-    m_LastClickedID: 56536
-    m_ExpandedIDs: 00000000d8dc0000dadc0000dcdc0000dedc0000e0dc0000e2dc0000e4dc0000e6dc0000e8dc0000eadc0000ecdc0000eedc0000f0dc0000f2dc0000f4dc0000f6dc0000f8dc000000ca9a3bffffff7f
+    m_SelectedIDs: e8dc0000
+    m_LastClickedID: 56552
+    m_ExpandedIDs: 00000000e8dc000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6232,7 +6232,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8dc0000dadc0000dcdc0000dedc0000e0dc0000e2dc0000e4dc0000e6dc0000e8dc0000eadc0000ecdc0000eedc0000f0dc0000f2dc0000f4dc0000f6dc0000f8dc0000
+    m_ExpandedIDs: 00000000e8dc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
