@@ -3664,7 +3664,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: a0faffff
+=======
+      m_ExpandedIDs: 12fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4240,9 +4244,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -44.749207, y: -104.88803, z: 82.98419}
     speed: 2
     m_Value: {x: -44.749207, y: -104.88803, z: 82.98419}
+=======
+    m_Target: {x: 71.62474, y: -32.65674, z: 325.31235}
+    speed: 2
+    m_Value: {x: 71.62474, y: -32.65674, z: 325.31235}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4288,6 +4298,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< Updated upstream
     m_Target: {x: -0.17545086, y: 0.82256925, z: -0.3497171, w: -0.41267538}
     speed: 2
     m_Value: {x: 0.22860834, y: 0.5670763, z: -0.16762224, w: 0.7733799}
@@ -4295,6 +4306,15 @@ MonoBehaviour:
     m_Target: 148.36075
     speed: 2
     m_Value: 148.36075
+=======
+    m_Target: {x: -0.15596724, y: -0.006225618, z: 0.0009830525, w: -0.9877421}
+    speed: 2
+    m_Value: {x: -0.15833275, y: -0.009777706, z: 0.0015679981, w: -0.98733616}
+  m_Size:
+    m_Target: 80.42771
+    speed: 2
+    m_Value: 84.2175
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -6201,9 +6221,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
+<<<<<<< Updated upstream
     m_SelectedIDs: e8dc0000
     m_LastClickedID: 56552
     m_ExpandedIDs: 00000000e8dc000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: cedc0000
+    m_LastClickedID: 56526
+    m_ExpandedIDs: 00000000cedc000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6232,7 +6258,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000e8dc0000
+=======
+    m_ExpandedIDs: 00000000cedc0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
