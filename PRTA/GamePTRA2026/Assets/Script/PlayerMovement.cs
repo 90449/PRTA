@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public float sprintSpeed = 12f;
     public float health = 100f;
     public Slider healthBar;
+    public Transform SpawnPoint;
     //bool isSprinting = Input.GetKey(KeyCode.LeftShift);
     //float currentSpeed = isSprinting ? sprintSpeed : speed;
 
@@ -63,6 +64,13 @@ public class PlayerMovement : MonoBehaviour
             health -= 1;
             healthBar.value = health;
             Debug.Log("Health: " + health);
+        }
+        if (health <= 0)
+        {
+            transform.position = SpawnPoint.position;
+            // Zet speler terug naar startpositie
+            // Reset health naar 100
+            // Reset healthbar naar 100
         }
     }
 }
