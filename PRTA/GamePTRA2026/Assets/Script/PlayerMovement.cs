@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (hit.gameObject.tag == "Damage")
         {
-            health -= 10;
+            health -= 1;
             healthBar.value = health;
             Debug.Log("Health: " + health);
         }
