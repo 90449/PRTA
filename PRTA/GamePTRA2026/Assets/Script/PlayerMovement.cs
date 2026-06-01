@@ -1,4 +1,6 @@
+using Ilumisoft.HealthSystem.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,6 +13,11 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
+    public float sprintSpeed = 12f;
+    public float health = 100f;
+    public Slider healthBar;
+    //bool isSprinting = Input.GetKey(KeyCode.LeftShift);
+    //float currentSpeed = isSprinting ? sprintSpeed : speed;
 
     Vector3 velocity;
 
@@ -19,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift);
+        float currentSpeed = isSprinting ? sprintSpeed : speed;
         //Checking if we hit the ground to reset out falling velocity, otherwise we will fall faster the next time
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -33,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         //right is the red Axis, foward is the blue axis
         Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * currentSpeed * Time.deltaTime);
 
         //check if the player is on the ground so he can jump
         if(Input.GetButtonDown("Jump") && isGrounded)
@@ -45,5 +54,15 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "Damage")
+        {
+            health -= 10;
+            healthBar.value = health;
+            Debug.Log("Health: " + health);
+        }
     }
 }
