@@ -67,10 +67,11 @@ public class PlayerMovement : MonoBehaviour
         }
         if (health <= 0)
         {
+            controller.enabled = false;
             transform.position = SpawnPoint.position;
-            // Zet speler terug naar startpositie
-            // Reset health naar 100
-            // Reset healthbar naar 100
+            controller.enabled = true;
+            health = 100f;
+            healthBar.value = health;
         }
     }
 }
