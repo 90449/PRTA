@@ -59,12 +59,17 @@ public class PlayerMovement : MonoBehaviour
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.gameObject.tag == "Damage")
-        {
-            health -= 1;
-            healthBar.value = health;
-            Debug.Log("Health: " + health);
-        }
+        string tag = hit.gameObject.tag;
+
+        if (tag == "Health") health += 1;
+        if (tag == "Health2") health += 10;
+        if (tag == "Health3") health += 100;
+        if (tag == "Damage") health -= 1;
+
+        // Zorg dat health binnen 0-100 blijft
+        health = Mathf.Clamp(health, 0f, 100f);
+        healthBar.value = health;
+
         if (health <= 0)
         {
             controller.enabled = false;

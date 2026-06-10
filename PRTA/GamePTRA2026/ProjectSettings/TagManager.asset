@@ -7,6 +7,9 @@ TagManager:
   - Damage
   - Healthbar
   - Mush
+  - Health
+  - Health2
+  - Health3
   layers:
   - Default
   - TransparentFX
