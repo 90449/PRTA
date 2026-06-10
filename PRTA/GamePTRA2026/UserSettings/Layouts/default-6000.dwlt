@@ -425,8 +425,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -439,18 +439,18 @@ MonoBehaviour:
       y: 21
       width: 1536
       height: 744
-    m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 768, y: 372}
+    m_Scale: {x: 1.362224, y: 1.362224}
+    m_Translation: {x: 775.6544, y: 382.47443}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -614.4
-      y: -297.6
-      width: 1228.8
-      height: 595.2
+      x: -569.403
+      y: -280.77206
+      width: 1127.5679
+      height: 546.1657
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1920, y: 956.25}
@@ -683,10 +683,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 711}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b6f6ffff
+      scrollPos: {x: 0, y: 199}
+      m_SelectedIDs: 18d90000
+      m_LastClickedID: 55576
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -831,7 +831,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__left
-      displayed: 0
+      displayed: 1
       id: Terrain Tools
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1262,9 +1262,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 694.98883, y: -436.03003, z: 1029.2329}
+    m_Target: {x: -111.95953, y: -15.994215, z: -18.11729}
     speed: 2
-    m_Value: {x: 694.98883, y: -436.03003, z: 1029.2329}
+    m_Value: {x: -111.95953, y: -15.994215, z: -18.11729}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1310,13 +1310,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.3227759, y: -0.0836156, z: 0.028642505, w: 0.94234276}
+    m_Target: {x: -0.019813484, y: 0.94427925, z: -0.3234399, w: -0.0578677}
     speed: 2
-    m_Value: {x: 0.322941, y: -0.07795984, z: 0.026705265, w: 0.94282466}
+    m_Value: {x: -0.021268567, y: 0.94400084, z: -0.32334456, w: -0.0621158}
   m_Size:
-    m_Target: 1177.2168
+    m_Target: 15.537219
     speed: 2
-    m_Value: 1232.6877
+    m_Value: 14.868153
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3225,7 +3225,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8a2e0100
     m_LastClickedID: 77450
-    m_ExpandedIDs: 0000000026e10000
+    m_ExpandedIDs: 00000000d8df0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3254,7 +3254,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026e10000
+    m_ExpandedIDs: 00000000d8df0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
