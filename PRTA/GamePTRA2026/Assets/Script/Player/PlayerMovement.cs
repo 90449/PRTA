@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float health = 100f;
     public Slider healthBar;
     public Transform SpawnPoint;
+    //public float pickupRange = 3f;
     //bool isSprinting = Input.GetKey(KeyCode.LeftShift);
     //float currentSpeed = isSprinting ? sprintSpeed : speed;
 
@@ -32,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         //Checking if we hit the ground to reset out falling velocity, otherwise we will fall faster the next time
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
@@ -46,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(move * currentSpeed * Time.deltaTime);
 
         //check if the player is on the ground so he can jump
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             //the equation for jumping
             velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
@@ -55,28 +56,42 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+        //    RaycastHit hit;
+        //    if (Physics.Raycast(ray, out hit, pickupRange))
+        //    {
+        //        Item item = hit.collider.GetComponent<Item>();
+        //        if (item != null)
+        //        {
+        //            Destroy(hit.collider.gameObject);
+        //        }
+        //    }
+        //}
     }
 
-    void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        string tag = hit.gameObject.tag;
-
-        if (tag == "Health") health += 1;
-        if (tag == "Health2") health += 10;
-        if (tag == "Health3") health += 100;
-        if (tag == "Damage") health -= 1;
-
-        // Zorg dat health binnen 0-100 blijft
-        health = Mathf.Clamp(health, 0f, 100f);
-        healthBar.value = health;
-
-        if (health <= 0)
+        void OnControllerColliderHit(ControllerColliderHit hit)
         {
-            controller.enabled = false;
-            transform.position = SpawnPoint.position;
-            controller.enabled = true;
-            health = 100f;
+            string tag = hit.gameObject.tag;
+
+            if (tag == "Health") health += 1;
+            if (tag == "Health2") health += 10;
+            if (tag == "Health3") health += 100;
+            if (tag == "Damage") health -= 1;
+
+            // Zorg dat health binnen 0-100 blijft
+            health = Mathf.Clamp(health, 0f, 100f);
             healthBar.value = health;
+
+            if (health <= 0)
+            {
+                controller.enabled = false;
+                transform.position = SpawnPoint.position;
+                controller.enabled = true;
+                health = 100f;
+                healthBar.value = health;
+            }
         }
-    }
 }
