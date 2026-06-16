@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float health = 100f;
     public Slider healthBar;
     public Transform SpawnPoint;
+    public InventoryManager inventoryManager;
     //public float pickupRange = 3f;
     //bool isSprinting = Input.GetKey(KeyCode.LeftShift);
     //float currentSpeed = isSprinting ? sprintSpeed : speed;
@@ -57,6 +58,15 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            string usedItem = inventoryManager.UseItem();
+            if (usedItem == "Apple") { health = Mathf.Clamp(health + 1f, 0f, 100f); }
+            if (usedItem == "Pear") { health = Mathf.Clamp(health + 1f, 0f, 100f); }
+            if (usedItem == "Melon") { health = Mathf.Clamp(health + 100f, 0f, 100f); }
+            healthBar.value = health;
+        }
+
         //if (Input.GetKeyDown(KeyCode.E))
         //{
         //    Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
@@ -76,10 +86,10 @@ public class PlayerMovement : MonoBehaviour
         {
             string tag = hit.gameObject.tag;
 
-            if (tag == "Health") health += 1;
-            if (tag == "Health2") health += 10;
-            if (tag == "Health3") health += 100;
-            if (tag == "Damage") health -= 1;
+        //if (tag == "Health") health += 1;
+        //if (tag == "Health2") health += 10;
+        //if (tag == "Health3") health += 100;
+        if (tag == "Damage") health -= 1;
 
             // Zorg dat health binnen 0-100 blijft
             health = Mathf.Clamp(health, 0f, 100f);
