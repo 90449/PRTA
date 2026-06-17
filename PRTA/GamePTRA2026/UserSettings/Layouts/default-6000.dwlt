@@ -293,8 +293,8 @@ MonoBehaviour:
     y: 0
     width: 977
     height: 571
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -303,7 +303,7 @@ MonoBehaviour:
   - {fileID: 22}
   - {fileID: 23}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -407,7 +407,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/img
+    - Assets/SkySeries Freebie
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -417,16 +417,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 46
   m_LastFolders:
-  - Assets/img
+  - Assets/SkySeries Freebie
   m_LastFoldersGridSize: 46
   m_LastProjectPath: C:\Users\Jarno\Documents\GitHub\PRTA\PRTA\GamePTRA2026
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 54e20000
-    m_LastClickedID: 57940
-    m_ExpandedIDs: 000000006ae0000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 194}
+    m_SelectedIDs: 1a380100
+    m_LastClickedID: 79898
+    m_ExpandedIDs: 000000003ee000001ae2000042e200007635010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -455,7 +455,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006ae00000
+    m_ExpandedIDs: 000000003ee00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: f6da0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -593,18 +593,18 @@ MonoBehaviour:
       y: 21
       width: 1536
       height: 744
-    m_Scale: {x: 1.3830733, y: 1.3830733}
-    m_Translation: {x: 768, y: 372}
+    m_Scale: {x: 1.3659087, y: 1.3659086}
+    m_Translation: {x: 759.05817, y: 373.27814}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -555.2851
-      y: -268.96622
-      width: 1110.5702
-      height: 537.93243
+      x: -555.7166
+      y: -273.28192
+      width: 1124.5261
+      height: 544.6924
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1920, y: 956.25}
@@ -837,10 +837,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 596}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d0faffff
+      m_ExpandedIDs: 4ee1ffff14fbfffff4d70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1416,9 +1416,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -109.72534, y: -3.8914654, z: 0.69929993}
+    m_Target: {x: -106.07356, y: 13.045588, z: 1.265197}
     speed: 2
-    m_Value: {x: -109.72534, y: -3.8914654, z: 0.69929993}
+    m_Value: {x: -106.07356, y: 13.045588, z: 1.265197}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1464,13 +1464,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1939589, y: 0.5476404, z: -0.13231713, w: -0.80312294}
+    m_Target: {x: -0.30383053, y: 0.62997276, z: 0.29399338, w: 0.6514979}
     speed: 2
-    m_Value: {x: -0.19395459, y: 0.5476282, z: -0.13231419, w: -0.8031051}
+    m_Value: {x: -0.30240396, y: 0.6313713, z: 0.29349312, w: 0.6509869}
   m_Size:
-    m_Target: 7.25216
+    m_Target: 5.70631
     speed: 2
-    m_Value: 7.25216
+    m_Value: 5.70631
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3298,10 +3298,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Package Manager\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 429
+    x: 428
     y: -971
     width: 975
-    height: 544
+    height: 545
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3379,7 +3379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f4e10000
     m_LastClickedID: 57844
-    m_ExpandedIDs: 000000006ae00000
+    m_ExpandedIDs: 000000003ee00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3408,7 +3408,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006ae00000
+    m_ExpandedIDs: 000000003ee00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
