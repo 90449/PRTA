@@ -57,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
         {
             // the equation for jumping
             velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
+            animator.SetTrigger("Jump");
+
         }
 
         velocity.y += gravity * Time.deltaTime;
