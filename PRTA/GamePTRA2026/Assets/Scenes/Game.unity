@@ -141,11 +141,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37d89d7b086d7824b9a334c7a7d3943a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -110
+      value: -109.486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37d89d7b086d7824b9a334c7a7d3943a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.542
+      value: -2.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37d89d7b086d7824b9a334c7a7d3943a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -186,6 +186,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 37d89d7b086d7824b9a334c7a7d3943a, type: 3}
       propertyPath: m_Name
       value: Watermelon (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37d89d7b086d7824b9a334c7a7d3943a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 37d89d7b086d7824b9a334c7a7d3943a, type: 3}
       propertyPath: m_TagString
@@ -1011,6 +1015,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRange: 6
+  itemLayer:
+    serializedVersion: 2
+    m_Bits: 0
   inventoryManager: {fileID: 560324789}
 --- !u!1 &269431354 stripped
 GameObject:
@@ -4334,7 +4341,7 @@ GameObject:
   - component: {fileID: 785991160}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10217,7 +10224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ddb716943ff907c4e91d1d1a8db539d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.297903
+      value: -3.024
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ddb716943ff907c4e91d1d1a8db539d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10258,6 +10265,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ddb716943ff907c4e91d1d1a8db539d5, type: 3}
       propertyPath: m_Name
       value: pear (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ddb716943ff907c4e91d1d1a8db539d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ddb716943ff907c4e91d1d1a8db539d5, type: 3}
       propertyPath: m_TagString
@@ -10781,6 +10792,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRange: 6
+  itemLayer:
+    serializedVersion: 2
+    m_Bits: 64
   inventoryManager: {fileID: 560324789}
 --- !u!114 &1750946616
 MonoBehaviour:
@@ -11313,7 +11327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2862005820906028714, guid: 25486c8d00d9fd545946fecd05b1a874, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.42
+      value: -3.359
       objectReference: {fileID: 0}
     - target: {fileID: 2862005820906028714, guid: 25486c8d00d9fd545946fecd05b1a874, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11350,6 +11364,10 @@ PrefabInstance:
     - target: {fileID: 3241522516619191312, guid: 25486c8d00d9fd545946fecd05b1a874, type: 3}
       propertyPath: m_Name
       value: apple (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241522516619191312, guid: 25486c8d00d9fd545946fecd05b1a874, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3241522516619191312, guid: 25486c8d00d9fd545946fecd05b1a874, type: 3}
       propertyPath: m_TagString
@@ -11888,7 +11906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -572, y: 273}
+  m_AnchoredPosition: {x: -527, y: 240}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1977735280
@@ -12794,7 +12812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -768, y: 97}
+  m_AnchoredPosition: {x: -932, y: 167}
   m_SizeDelta: {x: 620, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2131199193
