@@ -7,7 +7,7 @@ public class CreepAttackState : StateMachineBehaviour
     Transform player;
     NavMeshAgent agent;
 
-    public float stopAttackingDistance = 2.5f;
+    public float stopAttackingDistance = 5.1f;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
