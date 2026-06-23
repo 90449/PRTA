@@ -56,15 +56,17 @@ public class CreepCrouchState : StateMachineBehaviour
         }
 
         //chase the player
+        
         float distanceFromPlayer = Vector3.Distance(player.position, animator.transform.position);
-        if (distanceFromPlayer < detectionAreaRadius)
+        if (distanceFromPlayer < 25f)
+        {
+            animator.SetBool("IsCloseCatchingYou", true);
+        }
+        else if (distanceFromPlayer < detectionAreaRadius)
         {
             animator.SetBool("IsWalking", true);
         }
-        else if (distanceFromPlayer < 25f)        
-        {
-            animator.SetBool("IsCloseCatchingYou", true );
-        }
+
     }
 
     // onstateexit is called when a transition ends and the state machine finishes evaluating this state
