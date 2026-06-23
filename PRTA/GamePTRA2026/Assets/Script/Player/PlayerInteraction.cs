@@ -1,29 +1,36 @@
 using UnityEngine;
-
 public class PlayerInteraction : MonoBehaviour
 {
     public float pickupRange = 3f;
+    public LayerMask itemLayer;
     public InventoryManager inventoryManager;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, pickupRange))
+            Collider[] nearbyItems = Physics.OverlapSphere(transform.position, pickupRange, itemLayer);
+
+            if (nearbyItems.Length > 0)
             {
-                Item item = hit.collider.GetComponent<Item>();
+                Collider closest = nearbyItems[0];
+                float closestDistance = Vector3.Distance(transform.position, closest.transform.position);
+
+                foreach (Collider col in nearbyItems)
+                {
+                    float distance = Vector3.Distance(transform.position, col.transform.position);
+                    if (distance < closestDistance)
+                    {
+                        closest = col;
+                        closestDistance = distance;
+                    }
+                }
+
+                Item item = closest.GetComponent<Item>();
                 if (item != null)
                 {
                     inventoryManager.AddItem(item.itemName);
-                    Destroy(hit.collider.gameObject);
+                    Destroy(closest.gameObject);
                 }
             }
         }
