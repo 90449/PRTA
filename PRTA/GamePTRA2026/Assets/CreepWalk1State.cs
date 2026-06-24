@@ -28,7 +28,7 @@ public class CreepWalk1State : StateMachineBehaviour
         float distanceFromPlayer = Vector3.Distance(player.position, animator.transform.position);
 
         //checks if the agent should stop chasing
-        if (distanceFromPlayer > stopChasingDistance)
+        if (distanceFromPlayer > 25f)
         {
             animator.SetBool("IsCloseCatchingYou" , false);
         }   

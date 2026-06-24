@@ -7,7 +7,7 @@ public class CreepAttackState : StateMachineBehaviour
     Transform player;
     NavMeshAgent agent;
 
-    public float stopAttackingDistance = 5.1f;
+ 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -22,7 +22,7 @@ public class CreepAttackState : StateMachineBehaviour
 
         //check if agent should stop attacking
         float distanceFromPlayer = Vector3.Distance(player.position, animator.transform.position);
-        if (distanceFromPlayer > stopAttackingDistance)
+        if (distanceFromPlayer > 5.1f)
         {
             animator.SetBool("InAttackRange", false);
         }

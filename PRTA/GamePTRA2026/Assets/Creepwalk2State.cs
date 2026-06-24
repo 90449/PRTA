@@ -8,9 +8,6 @@ public class Creepwalk2State : StateMachineBehaviour
 
     public float chasespeed = 10f;
 
-    public float stopChasingDistance = 51f;
-
-    public float attackingDistance = 5f;
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -30,11 +27,11 @@ public class Creepwalk2State : StateMachineBehaviour
         float distanceFromPlayer = Vector3.Distance(player.position, animator.transform.position);
 
         //checks if the agent should stop chasing
-        if (distanceFromPlayer > stopChasingDistance)
+        if (distanceFromPlayer > 15f)
         {
-            animator.SetBool("IsCatchingYou", false);
+            animator.SetBool("IsCatchingUp", false);
         }
-        if (distanceFromPlayer < attackingDistance)
+        if (distanceFromPlayer < 5f)
         {
             animator.SetBool("InAttackRange", true);
         }
