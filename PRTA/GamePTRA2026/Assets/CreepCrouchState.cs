@@ -28,8 +28,8 @@ public class CreepCrouchState : StateMachineBehaviour
 
         //Getwaypoints to move to the first podsition
 
-        GameObject wayPointCluster = animator.GetComponent<NPCWaypoints>().npcWaypointsCluster;
-        foreach (Transform t in wayPointCluster.transform)
+        GameObject WayPointsCluster = animator.GetComponent<NPCWaypoints>().npcWaypointsCluster;
+        foreach (Transform t in WayPointsCluster.transform)
         {
             waypointsList.Add(t);
         }
@@ -62,9 +62,13 @@ public class CreepCrouchState : StateMachineBehaviour
         {
             animator.SetBool("IsCloseCatchingYou", true);
         }
-        else if (distanceFromPlayer < detectionAreaRadius)
+        else if (distanceFromPlayer < 50f)
         {
             animator.SetBool("IsWalking", true);
+        }
+        else if (distanceFromPlayer > 50f)
+        {
+            animator.SetBool("IsWalking", false) ;
         }
 
     }

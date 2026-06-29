@@ -6,7 +6,10 @@ public class NPCGizmos : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, 2.5f);
+        Gizmos.DrawWireSphere(transform.position, 5f);
+
+        Gizmos.color = Color.purple;
+        Gizmos.DrawWireSphere(transform.position, 15f);
 
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, 25f);
