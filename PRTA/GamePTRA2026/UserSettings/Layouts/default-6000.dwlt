@@ -21,8 +21,8 @@ MonoBehaviour:
   m_ShowMode: 0
   m_Title: Game
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 200, y: 226}
-  m_MaxSize: {x: 4000, y: 4026}
+  m_MinSize: {x: 200, y: 228}
+  m_MaxSize: {x: 4000, y: 4028}
   m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
@@ -66,9 +66,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
-    height: 792.8
-  m_MinSize: {x: 200, y: 226}
-  m_MaxSize: {x: 4000, y: 4026}
+    height: 793
+  m_MinSize: {x: 200, y: 228}
+  m_MaxSize: {x: 4000, y: 4028}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -93,11 +93,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
-    height: 792.8
-  m_MinSize: {x: 200, y: 226}
-  m_MaxSize: {x: 4000, y: 4026}
+    height: 793
+  m_MinSize: {x: 200, y: 228}
+  m_MaxSize: {x: 4000, y: 4028}
   vertical: 0
-  controlID: 163
+  controlID: 15
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 170
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,8 +144,8 @@ MonoBehaviour:
     y: 0
     width: 397
     height: 903
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 103
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 104
   draggingID: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -473,7 +473,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Player
+    - Assets/Survivalist/Texture/FPS_Arms
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -483,16 +483,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/Player
+  - Assets/Survivalist/Texture/FPS_Arms
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jarno\Documents\GitHub\PRTA\PRTA\GamePTRA2026
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 237}
-    m_SelectedIDs: 320c0100
-    m_LastClickedID: 68658
-    m_ExpandedIDs: 000000008ce6000020ed000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 477}
+    m_SelectedIDs: 0cec0000
+    m_LastClickedID: 60428
+    m_ExpandedIDs: 000000008ce6000088e800008ee80000fee8000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,10 +666,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 121}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: fc51ffff1452ffffb077ffffe277ffffe8faffff50da000028db0000e8dc0000
+      scrollPos: {x: 0, y: 144}
+      m_SelectedIDs: 4eeeffff
+      m_LastClickedID: -4530
+      m_ExpandedIDs: a2ddffffa4ddffff14fbffffc6db0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1239,15 +1239,15 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 675.4197, y: 263.97574, z: 0.5304118}
+    m_Target: {x: -107.17964, y: -1.5795774, z: -4.233401}
     speed: 2
-    m_Value: {x: 645.23175, y: 259.54056, z: 0.8752137}
+    m_Value: {x: -107.17964, y: -1.5795774, z: -4.233401}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1275,15 +1275,15 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1293,13 +1293,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.008002944, y: 0.99020314, z: -0.123921104, w: -0.06395702}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: -1}
+    m_Value: {x: -0.009375565, y: 0.9895425, z: -0.12233116, w: -0.07584822}
   m_Size:
-    m_Target: 800.7029
+    m_Target: 0.2687906
     speed: 2
-    m_Value: 766.22284
+    m_Value: 0.2814561
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1317,7 +1317,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.18655978, y: -0.1766535, z: 0.03412225, w: -0.9658331}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 19}
@@ -1357,7 +1357,7 @@ MonoBehaviour:
     x: 0
     y: 23.2
     width: 1536
-    height: 766.8
+    height: 765
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1536, y: 745.8}
+  m_TargetSize: {x: 1536, y: 744}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1392,8 +1392,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -614.4
     m_HBaseRangeMax: 614.4
-    m_VBaseRangeMin: -298.32
-    m_VBaseRangeMax: 298.32
+    m_VBaseRangeMin: -297.6
+    m_VBaseRangeMax: 297.6
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1412,9 +1412,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1536
-      height: 745.8
+      height: 744
     m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 768, y: 372.90002}
+    m_Translation: {x: 768, y: 372}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1422,12 +1422,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -614.4
-      y: -298.32
+      y: -297.6
       width: 1228.8
-      height: 596.64
+      height: 595.2
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1920, y: 958.5}
+  m_LastWindowPixelSize: {x: 1920, y: 956.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
