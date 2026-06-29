@@ -473,7 +473,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Player
+    - Assets/Survivalist/Texture/FPS_Arms
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/Player
+  - Assets/Survivalist/Texture/FPS_Arms
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jarno\Documents\GitHub\PRTA\PRTA\GamePTRA2026
   m_LockTracker:
@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -107.72861, y: -1.3302166, z: -4.2421875}
+    m_Target: {x: -107.17964, y: -1.5795774, z: -4.233401}
     speed: 2
     m_Value: {x: -107.72861, y: -1.3302166, z: -4.2421875}
   m_RenderMode: 0
@@ -1293,11 +1293,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.019202484, y: 0.9662133, z: -0.24568585, w: 0.075517826}
+    m_Target: {x: -0.008002944, y: 0.99020314, z: -0.123921104, w: -0.06395702}
     speed: 2
     m_Value: {x: 0.019939441, y: 0.9659818, z: -0.24562697, w: 0.07841607}
   m_Size:
-    m_Target: 1.8347634
+    m_Target: 0.2687906
     speed: 2
     m_Value: 1.7557545
   m_Ortho:
