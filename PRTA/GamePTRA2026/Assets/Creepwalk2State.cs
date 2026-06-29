@@ -31,7 +31,7 @@ public class Creepwalk2State : StateMachineBehaviour
         {
             animator.SetBool("IsCatchingUp", false);
         }
-        if (distanceFromPlayer < 5f)
+        if (distanceFromPlayer < 2f)
         {
             animator.SetBool("InAttackRange", true);
         }
