@@ -22,7 +22,7 @@ public class CreepAttackState : StateMachineBehaviour
 
         //check if agent should stop attacking
         float distanceFromPlayer = Vector3.Distance(player.position, animator.transform.position);
-        if (distanceFromPlayer > 5.1f)
+        if (distanceFromPlayer > 2.1f)
         {
             animator.SetBool("InAttackRange", false);
         }
